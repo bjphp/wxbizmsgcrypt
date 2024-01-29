@@ -1,0 +1,29 @@
+{
+    "name": "sakuara-bj/wxbizmsgcrypt",
+    "description": "Enterprise WeChat Callback",
+    "autoload": {
+        "psr-4": {
+            "SakuaraBj\\Wxbizmsgcrypt\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SakuaraBj\\Wxbizmsgcrypt\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "baojian",
+            "email": "bj18555447387@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0|^9.0",
+        "illuminate/config": "^8.0"
+    },
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    }
+}
